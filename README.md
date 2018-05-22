@@ -145,6 +145,6 @@ private void loadNativeAd() {
     }
 ```
 
-You’re finished! In order to make sure that all the functions are working properly, please make sure that you test the mediation implementaion prior to release on playstore.
+You’re finished! In order to make sure that all the functions are working properly, please make sure that you test the mediation implementation prior to release on play store.
 
 
