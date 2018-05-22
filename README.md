@@ -24,6 +24,7 @@ You can copy/paste `com.mopub.mobileads` or `com.mopub.nativeads` packages from 
 ## Set up Tyroo Custom Event with MoPub Mediation Network
 In this configuration, your application communicate with the Mopub SDK, which in turn requests content from the Tyroo SDK.
 Native or Interstitial information is passed directly from Tyroo’s SDK to your application.
+
 Here is a diagram showing the flow of information in a Tyroo-Mopub custom event mediation:
 
 
