@@ -27,7 +27,7 @@ Native or Interstitial information is passed directly from Tyroo’s SDK to your
 Here is a diagram showing the flow of information in a Tyroo-Mopub custom event mediation:
 
 
-![MoPubMediation](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/admob_mediation.png) 
+![MoPubMediation](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/admob_mediation.png | width="100" height="100") 
 
 **Step 1: Tyroo and MoPub SDK Setup in your App**
 
