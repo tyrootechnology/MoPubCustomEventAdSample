@@ -13,11 +13,11 @@ This sample app included Tyroo Video Ad SDK v1.1.7, MoPub SDK v5.0.0 and Custom 
 
 ## Before You Begin
 * The Tyroo Android SDK has been tested with MoPub 5.0.0 and therefore should only be integrated with MoPub 5.0.0 or above.
-* Read out Tyroo SDK setup offical documentation [here](https://github.com/tyrootechnology/vid.ai-app)
+* MoPub must be set up in your app before starting this tutorial. For a step-by-step guide, refer to [MoPub’s Getting Started Guide for Android](https://developers.mopub.com/docs/android/getting-started/).
 * The MoPub Dashboard does not include Tyroo SDK Adapters in their mediation network list yet, so you have to write custom event classes for Interstitial Ads and Native Ads.
 You can copy/paste `com.mopub.mobileads` or `com.mopub.nativeads` packages from the above source code.
-* MoPub must be set up in your app before starting this tutorial. For a step-by-step guide, refer to [MoPub’s Getting Started Guide for Android](https://developers.mopub.com/docs/android/getting-started/).
 * You will need Tyroo Placement and Package Name reference IDs to complete mediation setup with MoPub. You can find these IDs in the Tyroo Dashboard (or contact support@tyroo.com).
+* Read out Tyroo SDK setup offical documentation [here](https://github.com/tyrootechnology/vid.ai-app)
 * Read out Tyroo Interstitial Ad Setup official documentation [here](https://github.com/tyrootechnology/vid.ai-app/wiki/Interstitial-Video)
 * Read out Tyroo Native Video Ad Setup official documentation [here](https://github.com/tyrootechnology/vid.ai-app/wiki/In-Feed-Video)
 
@@ -27,7 +27,7 @@ Native or Interstitial information is passed directly from Tyroo’s SDK to your
 Here is a diagram showing the flow of information in a Tyroo-Mopub custom event mediation:
 
 
-![MoPubMediation](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/admob_mediation.png | width="100" height="100") 
+![MoPubMediation](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/admob_mediation.png) 
 
 **Step 1: Tyroo and MoPub SDK Setup in your App**
 
@@ -45,7 +45,7 @@ Custom events allow you to support native ad networks not bundled with the MoPub
 
 To show Tyroo Interstitial Ad via MoPub mediation network you need to write custom event classes inside `/src/main/java/com/mopub/mobileads/` directory in your app’s project.
 
-Similarly, to show Tyroo Native Video Ads via MoPub mediation network you need to write custom event classes inside '/src/main/java/com/mopub/nativeads/' directory in your app's project.
+Similarly, to show Tyroo Native Video Ads via MoPub mediation network you need to write custom event classes inside `/src/main/java/com/mopub/nativeads/` directory in your app's project.
 
 In this sample project, we have already written custom events for your reference. You can copy/paste these custom events packages into your project.
 
@@ -74,6 +74,7 @@ In this sample project, we have already written custom events for your reference
 ![](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_three.png)
 
 6. Click Save and Close.
+
 
 **Step 4: App Level Configuration and set localExtras(Map<String, Object>) for enable video caching**
 
