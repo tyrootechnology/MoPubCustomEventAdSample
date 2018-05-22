@@ -92,7 +92,7 @@ In this sample project, we have already written custom events for your reference
 6. Click Save and Close.
 
 
-**Step 4: App Level Configuration and set localExtras(Map<String, Object>) for enable video caching**
+**Step 4: App Level Configuration and set localExtras(Map<String, Object>) to enable video caching**
 
 Tyroo support only video ads and publisher can cache these videos data for better user experience. To enable video caching, publisher
 needs to enable cache(true/false). In case of mediation, publisher can enable/disable video caching at code level while requesting for an
