@@ -38,12 +38,12 @@ Here is a diagram showing the flow of information in a Tyroo-Mopub custom event 
 In your application project root `build.gradle` file, make sure jCenter repository added:
 
 <p align="center">
-<img height="300" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/screen_gradle_root.png">
+<img width="700" height="200" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/screen_gradle_root.png">
 </p>
 
 Add Tyroo and MoPub SDK dependency to your application project build.gradle:
 
-<p align="center">
+<p align="left">
 <img height="300" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/screen_gradle.png">
 </p>
 
@@ -57,7 +57,7 @@ Similarly, to show Tyroo Native Video Ads via MoPub mediation network you need t
 
 In this sample project, we have already written custom events for your reference. You can copy/paste these custom events packages into your project.
 
-<p align="center">
+<p align="left">
 <img height="400" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/mopub_custom_event.png">
 </p>
    
@@ -67,13 +67,13 @@ In this sample project, we have already written custom events for your reference
 2. Navigate to "Networks" tab and click "Add a Network"
 
 <p align="center">
-  <img height="400" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_one.png">
+  <img height="300" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_one.png">
   </p>
 
 3. Scroll down to Custom SDK Network and Select:
 
 <p align="center">
-<img height="400" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_two.png">
+<img height="350" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_two.png">
 </p>
 
 4. Fill out the network details and click next button:
@@ -86,7 +86,7 @@ In this sample project, we have already written custom events for your reference
 - Make sure you have got the valid placement ID and package name from Tyroo Support Team.
 
 <p align="center">
-<img height="200" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_three.png">
+<img height="400" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_three.png">
 </p>
 
 6. Click Save and Close.
