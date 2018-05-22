@@ -2,12 +2,12 @@
 
 This guide will instruct you step-by-step on how to serve Tyroo Native video and Interstitial video ads using MoPub mediation network.
 
-This sample app included Tyroo Video Ad SDK v1.1.7, MoPub SDK v5.0.0 and Custom Event classes used for Interstitial Ad and Native Ad.
+This sample app includes Tyroo Video Ad SDK v1.1.7, MoPub SDK v5.0.0 and Custom Event classes used for Interstitial Ad and Native Ad.
 
 ### NOTES
 > The code samples in this document can be copy/pasted into your source code.
 
-> Tyroo supports only Interstitial ads or native video ads via MobPub Mediation Network.
+> Tyroo supports only Interstitial ads and native video ads via MobPub Mediation Network.
 
 > If you have any questions, contact us via support@tyroo.com
 
@@ -16,7 +16,7 @@ This sample app included Tyroo Video Ad SDK v1.1.7, MoPub SDK v5.0.0 and Custom 
 * MoPub must be set up in your app before starting this tutorial. For a step-by-step guide, refer to [MoPub’s Getting Started Guide for Android](https://developers.mopub.com/docs/android/getting-started/).
 * The MoPub Dashboard does not include Tyroo SDK Adapters in their mediation network list, so you have to write custom event classes for Interstitial Ads and Native Ads.
 You can copy/paste packages from the above source code i.e. `com.mopub.mobileads` or `com.mopub.nativeads` .
-* You will need Tyroo Placement and Package Name reference IDs to complete mediation setup with MoPub. You can find these IDs in the Tyroo Dashboard (or contact support@tyroo.com).
+* You will need Tyroo Placement and Package Name reference IDs to complete mediation setup with MoPub. Contact support@tyroo.com for gettign these ids.
 * Read out Tyroo SDK setup offical documentation [here](https://github.com/tyrootechnology/vid.ai-app)
 * Read out Tyroo Interstitial Ad Setup official documentation [here](https://github.com/tyrootechnology/vid.ai-app/wiki/Interstitial-Video)
 * Read out Tyroo Native Video Ad Setup official documentation [here](https://github.com/tyrootechnology/vid.ai-app/wiki/In-Feed-Video)
@@ -35,7 +35,7 @@ Here is a diagram showing the flow of information in a Tyroo-Mopub custom event 
 
 **Step 1: Tyroo and MoPub SDK Setup in your App**
 
-In your application project root `build.gradle` file, make sure jCenter repository added:
+In your application project root `build.gradle` file, make sure jCenter repository is added:
 
 <p align="center">
 <img width="700" height="200" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/screen_gradle_root.png">
@@ -82,7 +82,7 @@ In this sample project, we have already written custom events for your reference
 - If you are using Interstitial Ad Unit, add `com.mopub.mobileads.TyrooInterstitial` under the Custom Event Class section.
 - If you are using Native Ad Unit, add `com.mopub.nativeads.TyrooVideoNative` under the Custom Event Class section.
 - Add your Tyroo Placement ID​ and Package Name, and all extra Reference IDs​ in JSON format under the Custom Event Class Data(Both for Interstial and Native Ad Unit)​.
-- Data entered in JSON format will receive in custom event classes in serverExtra `Map<String, Object>` format.
+- Data entered in JSON format will be received in custom event classes in serverExtra `Map<String, Object>` format.
 - Make sure you have got the valid placement ID and package name from Tyroo Support Team.
 
 <p align="center">
@@ -94,8 +94,8 @@ In this sample project, we have already written custom events for your reference
 
 **Step 4: App Level Configuration and set localExtras(Map<String, Object>) for enable video caching**
 
-Tyroo support only video ads and publisher can cache these videos data to maximize the impression. To enable video caching, publisher
-need to enable cache(true/false). In case of mediation, publisher can enable/disable video caching at code level whenever request for an
+Tyroo support only video ads and publisher can cache these videos data for better user experience. To enable video caching, publisher
+needs to enable cache(true/false). In case of mediation, publisher can enable/disable video caching at code level while requesting for an
 ad using `setLocalExtras(Map<String, Object> extras)` method.
 
 For Example: 
@@ -145,4 +145,6 @@ private void loadNativeAd() {
     }
 ```
 
-You’re finished! Be sure to test your Mobpub – Tyroo mediation implementation to be sure everything is functioning correctly before you release your application to the app store.
+You’re finished! In order to make sure that all the functions are working properly, please make sure that you test the mediation implementaion prior to release on playstore.
+
+
