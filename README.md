@@ -27,18 +27,18 @@ Native or Interstitial information is passed directly from Tyroo’s SDK to your
 
 Here is a diagram showing the flow of information in a Tyroo-Mopub custom event mediation:
 
-<img align="center" width="700" height="500" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/admob_mediation.png">
+<img align="center" width="600" height="400" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/admob_mediation.png">
 
 
 **Step 1: Tyroo and MoPub SDK Setup in your App**
 
 In your application project root `build.gradle` file, make sure jCenter repository added:
 
-![](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/screen_gradle_root.png)
+<img align="center" width="600" height="200" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/screen_gradle_root.png">
 
 Add Tyroo and MoPub SDK dependency to your application project build.gradle:
 
-![](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/screen_gradle.png)
+<img align="center" width="600" height="200" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/screen_gradle.png">
 
 **Step 2: Adding Custom Events in app project**
 
@@ -50,18 +50,18 @@ Similarly, to show Tyroo Native Video Ads via MoPub mediation network you need t
 
 In this sample project, we have already written custom events for your reference. You can copy/paste these custom events packages into your project.
 
-![](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/mopub_custom_event.png)
+<img align="center" width="600" height="200" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/mopub_custom_event.png">
 
 **Step 3: Adding Custom Evets MoPub Dashboard**
 
 1. Login into your MoPub account
 2. Navigate to "Networks" tab and click "Add a Network"
 
-![](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_one.png)
+<img align="center" width="600" height="200" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_one.png">
 
 3. Scroll down to Custom SDK Network and Select:
 
-![](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_two.png)
+<img align="center" width="600" height="200" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_two.png">
 
 4. Fill out the network details and click next button:
 5. Inside App and Ad Unit Setup: 
@@ -72,7 +72,7 @@ In this sample project, we have already written custom events for your reference
 - Data entered in JSON format will receive in custom event classes in serverExtra `Map<String, Object>` format.
 - Make sure you have got the valid placement ID and package name from Tyroo Support Team.
 
-![](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_three.png)
+<img align="center" width="600" height="200" src="https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_three.png">
 
 6. Click Save and Close.
 
