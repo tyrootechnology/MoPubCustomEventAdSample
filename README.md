@@ -29,6 +29,8 @@ Here is a diagram showing the flow of information in a Tyroo-Mopub custom event 
 
 ![MoPubMediation](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/admob_mediation.png) 
 
+
+
 **Step 1: Tyroo and MoPub SDK Setup in your App**
 
 In your application project root `build.gradle` file, make sure jCenter repository added:
