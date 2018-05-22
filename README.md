@@ -3,14 +3,15 @@
 This guide will instruct you step-by-step on how to serve Tyroo Native video and Interstitial video ads using MoPub mediation network.
 
 This sample app included Tyroo Video Ad SDK v1.1.7, MoPub SDK v5.0.0 and Custom Event classes for Interstitial Ad and Native Ad.
-###NOTES
+
+### NOTES
 > The code samples in this document can be copy/pasted into your source code.
 
 > Tyroo support only Interstitial ads or native video ads via MobPub Mediation Network.
 
 > If you have any questions, contact us via support@tyroo.com
 
-##Before You Begin
+## Before You Begin
 * The Tyroo Android SDK has been tested with MoPub 5.0.0 and therefore should only be integrated with MoPub 5.0.0 or above.
 * Read out Tyroo SDK setup offical documentation [here](https://github.com/tyrootechnology/vid.ai-app)
 * The MoPub Dashboard does not include Tyroo SDK Adapters in their mediation network list yet, so you have to write custom event classes for Interstitial Ads and Native Ads.
@@ -52,17 +53,17 @@ In this sample project, we have already written custom events for your reference
 
 **Step 3: Adding Custom Evets MoPub Dashboard**
 
-1.Login into your MoPub account
-2.Navigate to "Networks" tab and click "Add a Network"
+1. Login into your MoPub account
+2. Navigate to "Networks" tab and click "Add a Network"
 
 ![](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_one.png)
 
-3.Scroll down to Custom SDK Network and Select:
+3. Scroll down to Custom SDK Network and Select:
 
 ![](https://github.com/tyrootechnology/MoPubCustomEventAdSample/blob/master/screenshots/dashboard_two.png)
 
-4.Fill out the network details and click next button:
-5.Inside App and Ad Unit Setup: 
+4. Fill out the network details and click next button:
+5. Inside App and Ad Unit Setup: 
 
 - If you are using Interstitial Ad Unit, add `com.mopub.mobileads.TyrooInterstitial` under the Custom Event Class section.
 - If you are using Native Ad Unit, add `com.mopub.nativeads.TyrooVideoNative` under the Custom Event Class section.
